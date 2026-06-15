@@ -86,3 +86,20 @@ aws-fintech-devops-pipeline/
 ### Phase 4: Teardown
 To avoid AWS charges, destroy the infrastructure once testing is complete:
 `terraform destroy --auto-approve`
+
+---
+
+## 🤝 Contributing
+
+This is a learning project. Feel free to fork, explore, and learn from it!
+
+---
+
+*📞 Contact*
+---
+
+- GitHub: [@cloudnash](https://github.com/cloudnash)
+- LinkedIn: [Nashit Ahmad](https://in.linkedin.com/in/nashitahmad)
+- Email: nashitakerfeldt@gmail.com
+
+---
