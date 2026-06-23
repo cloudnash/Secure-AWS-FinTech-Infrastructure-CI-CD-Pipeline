@@ -26,8 +26,8 @@ jobs:
         if [ -f app/requirements.txt ]; then pip install -r app/requirements.txt; fi
 
     - name: Lint with flake8
-      run: |
-        flake8 app/app.py --count --select=E9,F63,F7,F82 --show-source --statistics
+      run: flake8 app/app.py --count --select=E9,F63,F7,F82 --show-source --statistics
+      working-directory: ./app
 
     - name: Build Docker Image
       run: |
